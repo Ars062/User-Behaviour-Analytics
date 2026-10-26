@@ -1,0 +1,22 @@
+# FastAPI for API
+fastapi==0.111.1
+uvicorn[standard]==0.23.2
+
+# MongoDB client
+pymongo==4.4.0
+
+# Requests for Umami/Clarity API calls
+requests==2.32.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Scheduling jobs
+APScheduler==3.10.4
+
+# Geocoding and country/region normalization
+geopy==2.7.0
+pycountry==22.3.5
+
+# Optional: if you do async calls later
+httpx==1.9.1

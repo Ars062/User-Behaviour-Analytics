@@ -1,0 +1,60 @@
+# --------------------
+# Python / Env
+# --------------------
+.env
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# --------------------
+# Jobs - NOT required
+# --------------------
+jobs/*.sty
+jobs/fetch_umami_job_v1.py
+jobs/fetch_clarity_job2.sty
+jobs/umamiv2.json
+
+# --------------------
+# Generated outputs
+# --------------------
+clarity_output/
+clarity_pngs/
+clarity_profile/
+clarity_session/
+pw_chrome_profile/
+
+# --------------------
+# Raw analytics dumps (never commit real data)
+# --------------------
+jobs/*.json
+*.sty
+.vscode/
+
+# --------------------
+# Jupyter / Experiments
+# --------------------
+.ipynb_checkpoints/
+clarity7.ipynb
+
+# --------------------
+# Tests (local only)
+# --------------------
+test_mongo.py
+test_playwright_browser.py
+
+# --------------------
+# Docs not needed
+# --------------------
+pipeline and arch.md
+
+# --------------------
+# Local junk
+# --------------------
+newfoldern/
+*.exe
+*.dll
+*.msi
+node_modules/
+dist/
+build/
